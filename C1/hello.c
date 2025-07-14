@@ -16,6 +16,7 @@ int main() {
   sortDescending(average, 5, studentIndex);
   outputAverageScore(average, 5, totalAverage, studentIndex);
   printf("program end\n");
+  printf("program end 2\n");
   return 0;
 }
 void swap(int *num1, int *num2) {

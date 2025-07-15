@@ -1,14 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-  int arr[10];
-  int i;
+  int num = 0;
+  char c = 0;
 
-  for (i = 0; i < 10; i++) {
-    scanf("%d", &arr[i]);
-  }
-  for (i = 0; i < 10; i++) {
-    printf("%d\n", arr[i]);
-  }
+  printf("숫자를 입력하세요: ");
+  scanf("%d", &num);
+
+  getchar();
+
+  printf("문자를 입력하세요: ");
+  scanf("%c", &c);
+
+  printf("입력한 문자 : %c\n", c);
+
   return 0;
 }

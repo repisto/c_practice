@@ -9,7 +9,7 @@ int main() {
   printf("Input str2: ");
   scanf("%s", str2);
 
-  // char *pos = strstr(str1, str2);
+  char *pos = strstr(str1, str2);
 
   if (pos != -1) {
     int searchIndex = pos - str1;

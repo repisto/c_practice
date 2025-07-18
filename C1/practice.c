@@ -1,21 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-struct Human {
+struct TEST {
   int age;
-  int height;
-  int weight;
+  int gender;
+  char name[20];
 };
-
+int set_human(struct TEST *a, int age, int gender, const char *name);
 int main() {
-  struct Human Psi = {0};
-  Psi.age = 99;
-  Psi.height = 185;
-  Psi.weight = 80;
+  struct TEST human = {0};
+  set_human(&human, 10, 1, "Lee");
+  printf("AGE: %d // Gender: %d // Name : %s\n", human.age, human.gender,
+         human.name);
 
-  printf("Psi information\n");
-  printf("age: %d\n", Psi.age);
-  printf("height: %d\n", Psi.height);
-  printf("weight: %d\n", Psi.weight);
-
+  return 0;
+}
+int set_human(struct TEST *a, int age, int gender, const char *name) {
+  a->age = age;
+  a->gender = gender;
+  strcpy(a->name, name);
   return 0;
 }

@@ -1,24 +1,19 @@
+// practice.c
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
-struct TEST {
-  int age;
-  int gender;
-  char name[20];
-};
-int set_human(struct TEST *a, int age, int gender, const char *name);
+char compare(char *str1, char *str2);
+
 int main() {
-  struct TEST human = {0};
-  set_human(&human, 10, 1, "Lee");
-  printf("AGE: %d // Gender: %d // Name : %s\n", human.age, human.gender,
-         human.name);
+  char str1[20] = {0};
+  char str2[20] = {0};
 
-  return 0;
-}
-int set_human(struct TEST *a, int age, int gender, const char *name) {
-  a->age = age;
-  a->gender = gender;
-  strcpy(a->name, name);
+  scanf("%s", str1);
+  scanf("%s", str2);
+
+  if (compare(str1, str2)) {
+    printf("%s and %s are same.\n", str1, str2);
+  } else
+    printf("%s and %s are different\n", str1, str2);
+
   return 0;
 }

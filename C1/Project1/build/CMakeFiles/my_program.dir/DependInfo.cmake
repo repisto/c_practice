@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c" "CMakeFiles/my_program.dir/src/hello.c.o" "gcc" "CMakeFiles/my_program.dir/src/hello.c.o.d"
-  "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c" "CMakeFiles/my_program.dir/src/main.c.o" "gcc" "CMakeFiles/my_program.dir/src/main.c.o.d"
+  "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c" "CMakeFiles/my_program.dir/src/str.c.o" "gcc" "CMakeFiles/my_program.dir/src/str.c.o.d"
+  "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c" "CMakeFiles/my_program.dir/src/test.c.o" "gcc" "CMakeFiles/my_program.dir/src/test.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

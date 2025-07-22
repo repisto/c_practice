@@ -129,53 +129,53 @@ my_program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/build
 .PHONY : my_program/fast
 
-src/hello.o: src/hello.c.o
-.PHONY : src/hello.o
+src/str.o: src/str.c.o
+.PHONY : src/str.o
 
 # target to build an object file
-src/hello.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/hello.c.o
-.PHONY : src/hello.c.o
+src/str.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.o
+.PHONY : src/str.c.o
 
-src/hello.i: src/hello.c.i
-.PHONY : src/hello.i
+src/str.i: src/str.c.i
+.PHONY : src/str.i
 
 # target to preprocess a source file
-src/hello.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/hello.c.i
-.PHONY : src/hello.c.i
+src/str.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.i
+.PHONY : src/str.c.i
 
-src/hello.s: src/hello.c.s
-.PHONY : src/hello.s
+src/str.s: src/str.c.s
+.PHONY : src/str.s
 
 # target to generate assembly for a file
-src/hello.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/hello.c.s
-.PHONY : src/hello.c.s
+src/str.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.s
+.PHONY : src/str.c.s
 
-src/main.o: src/main.c.o
-.PHONY : src/main.o
+src/test.o: src/test.c.o
+.PHONY : src/test.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.o
+.PHONY : src/test.c.o
 
-src/main.i: src/main.c.i
-.PHONY : src/main.i
+src/test.i: src/test.c.i
+.PHONY : src/test.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.i
+.PHONY : src/test.c.i
 
-src/main.s: src/main.c.s
-.PHONY : src/main.s
+src/test.s: src/test.c.s
+.PHONY : src/test.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.s
+.PHONY : src/test.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_program"
-	@echo "... src/hello.o"
-	@echo "... src/hello.i"
-	@echo "... src/hello.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/str.o"
+	@echo "... src/str.i"
+	@echo "... src/str.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

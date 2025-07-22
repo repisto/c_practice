@@ -72,44 +72,44 @@ include CMakeFiles/my_program.dir/flags.make
 CMakeFiles/my_program.dir/codegen:
 .PHONY : CMakeFiles/my_program.dir/codegen
 
-CMakeFiles/my_program.dir/src/hello.c.o: CMakeFiles/my_program.dir/flags.make
-CMakeFiles/my_program.dir/src/hello.c.o: /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c
-CMakeFiles/my_program.dir/src/hello.c.o: CMakeFiles/my_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taehoonyoon/Projects/Modoo/C1/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_program.dir/src/hello.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/hello.c.o -MF CMakeFiles/my_program.dir/src/hello.c.o.d -o CMakeFiles/my_program.dir/src/hello.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c
+CMakeFiles/my_program.dir/src/str.c.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/src/str.c.o: /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c
+CMakeFiles/my_program.dir/src/str.c.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taehoonyoon/Projects/Modoo/C1/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/my_program.dir/src/str.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/str.c.o -MF CMakeFiles/my_program.dir/src/str.c.o.d -o CMakeFiles/my_program.dir/src/str.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c
 
-CMakeFiles/my_program.dir/src/hello.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_program.dir/src/hello.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c > CMakeFiles/my_program.dir/src/hello.c.i
+CMakeFiles/my_program.dir/src/str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_program.dir/src/str.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c > CMakeFiles/my_program.dir/src/str.c.i
 
-CMakeFiles/my_program.dir/src/hello.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_program.dir/src/hello.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c -o CMakeFiles/my_program.dir/src/hello.c.s
+CMakeFiles/my_program.dir/src/str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_program.dir/src/str.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c -o CMakeFiles/my_program.dir/src/str.c.s
 
-CMakeFiles/my_program.dir/src/main.c.o: CMakeFiles/my_program.dir/flags.make
-CMakeFiles/my_program.dir/src/main.c.o: /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c
-CMakeFiles/my_program.dir/src/main.c.o: CMakeFiles/my_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taehoonyoon/Projects/Modoo/C1/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_program.dir/src/main.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/main.c.o -MF CMakeFiles/my_program.dir/src/main.c.o.d -o CMakeFiles/my_program.dir/src/main.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c
+CMakeFiles/my_program.dir/src/test.c.o: CMakeFiles/my_program.dir/flags.make
+CMakeFiles/my_program.dir/src/test.c.o: /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c
+CMakeFiles/my_program.dir/src/test.c.o: CMakeFiles/my_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taehoonyoon/Projects/Modoo/C1/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_program.dir/src/test.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_program.dir/src/test.c.o -MF CMakeFiles/my_program.dir/src/test.c.o.d -o CMakeFiles/my_program.dir/src/test.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c
 
-CMakeFiles/my_program.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_program.dir/src/main.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c > CMakeFiles/my_program.dir/src/main.c.i
+CMakeFiles/my_program.dir/src/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_program.dir/src/test.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c > CMakeFiles/my_program.dir/src/test.c.i
 
-CMakeFiles/my_program.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_program.dir/src/main.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c -o CMakeFiles/my_program.dir/src/main.c.s
+CMakeFiles/my_program.dir/src/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_program.dir/src/test.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c -o CMakeFiles/my_program.dir/src/test.c.s
 
 # Object files for target my_program
 my_program_OBJECTS = \
-"CMakeFiles/my_program.dir/src/hello.c.o" \
-"CMakeFiles/my_program.dir/src/main.c.o"
+"CMakeFiles/my_program.dir/src/str.c.o" \
+"CMakeFiles/my_program.dir/src/test.c.o"
 
 # External object files for target my_program
 my_program_EXTERNAL_OBJECTS =
 
-my_program: CMakeFiles/my_program.dir/src/hello.c.o
-my_program: CMakeFiles/my_program.dir/src/main.c.o
+my_program: CMakeFiles/my_program.dir/src/str.c.o
+my_program: CMakeFiles/my_program.dir/src/test.c.o
 my_program: CMakeFiles/my_program.dir/build.make
 my_program: CMakeFiles/my_program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/taehoonyoon/Projects/Modoo/C1/Project1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable my_program"

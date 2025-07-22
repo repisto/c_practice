@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/taehoonyoon/Projects/Modoo/C1/dirA/build",
+  "command": "/usr/bin/clang   -g -std=gnu99 -arch arm64 -o CMakeFiles/my_program.dir/src/main.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/dirA/src/main.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/dirA/src/main.c",
+  "output": "CMakeFiles/my_program.dir/src/main.c.o"
+}
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250722-0716-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.0.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="macOS"
+	Hostname="Taehoons-MacBook-Pro.local"
+	OSRelease="15.5"
+	OSVersion="24F74"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="Apple"
+	VendorID="Apple"
+	FamilyID="0"
+	ModelID="0"
+	ModelName="Apple M4 Pro"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="14"
+	NumberOfPhysicalCPU="14"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="24576"
+	LogicalProcessorsPerPhysical="14"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jul 22 16:16 KST</StartDateTime>
+		<StartTestTime>1753168575</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 22 16:16 KST</EndDateTime>
+		<EndTestTime>1753168575</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

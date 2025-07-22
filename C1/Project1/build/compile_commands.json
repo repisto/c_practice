@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/hello.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/hello.c",
+  "output": "CMakeFiles/my_program.dir/src/hello.c.o"
+},
+{
+  "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/main.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c",
+  "output": "CMakeFiles/my_program.dir/src/main.c.o"
+}
+]

@@ -1,0 +1,19 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug my_program",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/my_program",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb", // macOS인 경우 lldb, Windows는 "gdb" 대신 "cppvsdbg"일 수도 있음
+      "preLaunchTask": "build my_program"
+    }
+  ]
+}

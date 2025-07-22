@@ -1,14 +1,26 @@
 [
 {
   "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
-  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/str.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c",
-  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/str.c",
-  "output": "CMakeFiles/my_program.dir/src/str.c.o"
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/bookManage.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/bookManage.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/bookManage.c",
+  "output": "CMakeFiles/my_program.dir/src/bookManage.c.o"
 },
 {
   "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
-  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/test.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c",
-  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c",
-  "output": "CMakeFiles/my_program.dir/src/test.c.o"
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/human.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/human.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/human.c",
+  "output": "CMakeFiles/my_program.dir/src/human.c.o"
+},
+{
+  "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/main.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main.c",
+  "output": "CMakeFiles/my_program.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/build",
+  "command": "/usr/bin/clang  -I/Users/taehoonyoon/Projects/Modoo/C1/Project1/include -g -std=gnu11 -arch arm64 -o CMakeFiles/my_program.dir/src/main2.c.o -c /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main2.c",
+  "file": "/Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main2.c",
+  "output": "CMakeFiles/my_program.dir/src/main2.c.o"
 }
 ]

@@ -129,53 +129,101 @@ my_program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/build
 .PHONY : my_program/fast
 
-src/str.o: src/str.c.o
-.PHONY : src/str.o
+src/bookManage.o: src/bookManage.c.o
+.PHONY : src/bookManage.o
 
 # target to build an object file
-src/str.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.o
-.PHONY : src/str.c.o
+src/bookManage.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/bookManage.c.o
+.PHONY : src/bookManage.c.o
 
-src/str.i: src/str.c.i
-.PHONY : src/str.i
+src/bookManage.i: src/bookManage.c.i
+.PHONY : src/bookManage.i
 
 # target to preprocess a source file
-src/str.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.i
-.PHONY : src/str.c.i
+src/bookManage.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/bookManage.c.i
+.PHONY : src/bookManage.c.i
 
-src/str.s: src/str.c.s
-.PHONY : src/str.s
+src/bookManage.s: src/bookManage.c.s
+.PHONY : src/bookManage.s
 
 # target to generate assembly for a file
-src/str.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/str.c.s
-.PHONY : src/str.c.s
+src/bookManage.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/bookManage.c.s
+.PHONY : src/bookManage.c.s
 
-src/test.o: src/test.c.o
-.PHONY : src/test.o
+src/human.o: src/human.c.o
+.PHONY : src/human.o
 
 # target to build an object file
-src/test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.o
-.PHONY : src/test.c.o
+src/human.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/human.c.o
+.PHONY : src/human.c.o
 
-src/test.i: src/test.c.i
-.PHONY : src/test.i
+src/human.i: src/human.c.i
+.PHONY : src/human.i
 
 # target to preprocess a source file
-src/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.i
-.PHONY : src/test.c.i
+src/human.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/human.c.i
+.PHONY : src/human.c.i
 
-src/test.s: src/test.c.s
-.PHONY : src/test.s
+src/human.s: src/human.c.s
+.PHONY : src/human.s
 
 # target to generate assembly for a file
-src/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/test.c.s
-.PHONY : src/test.c.s
+src/human.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/human.c.s
+.PHONY : src/human.c.s
+
+src/main.o: src/main.c.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/main2.o: src/main2.c.o
+.PHONY : src/main2.o
+
+# target to build an object file
+src/main2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main2.c.o
+.PHONY : src/main2.c.o
+
+src/main2.i: src/main2.c.i
+.PHONY : src/main2.i
+
+# target to preprocess a source file
+src/main2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main2.c.i
+.PHONY : src/main2.c.i
+
+src/main2.s: src/main2.c.s
+.PHONY : src/main2.s
+
+# target to generate assembly for a file
+src/main2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_program.dir/build.make CMakeFiles/my_program.dir/src/main2.c.s
+.PHONY : src/main2.c.s
 
 # Help Target
 help:
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... my_program"
-	@echo "... src/str.o"
-	@echo "... src/str.i"
-	@echo "... src/str.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... src/bookManage.o"
+	@echo "... src/bookManage.i"
+	@echo "... src/bookManage.s"
+	@echo "... src/human.o"
+	@echo "... src/human.i"
+	@echo "... src/human.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/main2.o"
+	@echo "... src/main2.i"
+	@echo "... src/main2.s"
 .PHONY : help
 
 

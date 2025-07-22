@@ -1,6 +1,7 @@
-CMakeFiles/my_program.dir/src/test.c.o: \
-  /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/test.c \
+CMakeFiles/my_program.dir/src/book_function.c.o: \
+  /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/book_function.c \
   /Users/taehoonyoon/Projects/Modoo/C1/Project1/include/book_function.h \
+  /Users/taehoonyoon/Projects/Modoo/C1/Project1/include/str.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \

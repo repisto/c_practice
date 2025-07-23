@@ -180,8 +180,7 @@ CMakeFiles/my_program.dir/src/main2.c.o: /Users/taehoonyoon/Projects/Modoo/C1/Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
-  /Users/taehoonyoon/Projects/Modoo/C1/Project1/include/human.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
 
 
 /Users/taehoonyoon/Projects/Modoo/C1/Project1/src/main2.c:
